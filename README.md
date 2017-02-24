@@ -1,6 +1,6 @@
 # Python-wrapper-for-YOLO
 
-Python bindings for YOLO v2 (https://pjreddie.com/darknet/yolo/) with ctypes.
+Python bindings for YOLO v2 (https://pjreddie.com/darknet/yolo/) detector function with ctypes.
 
 ## Download YOLOv2 source code 
 
@@ -26,3 +26,5 @@ cd ..
 ```python
 python python_wrapper.py
 ```
+
+## Putl all your test images to darknet/data directory.
