@@ -2,6 +2,14 @@
 
 Python bindings for YOLO v2 (https://pjreddie.com/darknet/yolo/) detector function with ctypes.
 
+## Install perequisites.
+
+* Command line tools (gcc)
+* PIL
+```python
+pip install pillow
+```
+
 ## Download YOLOv2 source code 
 
 ```python
