@@ -23,8 +23,8 @@ cd ..
 
 ## Copy python_wrapper.py from this repository to your darknet directory
 
+Put all your test files to darknet/data directory and run the script.
+
 ```python
 python python_wrapper.py
 ```
-
-## Putl all your test images to darknet/data directory.
