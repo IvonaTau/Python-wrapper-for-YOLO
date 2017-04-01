@@ -15,6 +15,11 @@ pip install pillow
 ```python
 git clone https://github.com/pjreddie/darknet
 cd darknet
+```
+
+## Replace makefile with the one from this repository and run make
+
+```
 make
 wget http://pjreddie.com/media/files/yolo.weights
 ```
