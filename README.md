@@ -23,7 +23,7 @@ wget http://pjreddie.com/media/files/yolo.weights
 
 ```python
 cd src
-gcc -c -FPIC *.c
+gcc -c -fPIC *.c
 gcc -shared -fPIC  -o libdarknet.so  *.o -lc
 cp ./libdarknet.so ../
 cd ..
